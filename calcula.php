@@ -18,7 +18,7 @@ if($_SERVER["REQUEST_METHOD"] === "POST"){
 
 ?>
 
-<h1>Informações do colaboradores</h1>
+<h1>Informações dos escravos</h1>
 
 <table border = 1 >
     <tr>
