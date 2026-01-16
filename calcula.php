@@ -3,13 +3,13 @@ if($_SERVER["REQUEST_METHOD"] === "POST"){
 
     $nome = $_POST['nome'];
     $idade = $_POST['idade'];
-    $obrigacoes = $_POST['obrigacoes'];
-    $cargahoraria = $_POST['cargahoraria'];
+    $tarefas = $_POST['obrigacoes'];
+    $atrasos = $_POST['cargahoraria'];
 
-    if($obrigacoes >= 10 && $obrigacoes <= 19 && $cargahoraria <=2 || $cargahoraria == 3 ){
+    if($tarefas >= 10 && $tarefas <= 19 && $atrasos <=2 || $atrasos == 3 ){
         $resultado = "Reultado exelente";
     }
-    elseif($obrigacoes >= 20 && $cargahoraria <= 1){
+    elseif($tarefas >= 20 && $atrasos <= 1){
     }
     else{
         $resultado ="Resultado insatisfatorio";
@@ -22,18 +22,18 @@ if($_SERVER["REQUEST_METHOD"] === "POST"){
 
 <table border = 1 >
     <tr>
-        <th>username</th>
+        <th>nome</th>
         <th>idade</th>
-        <th>obrigacoes</th>
-        <th>cargahoraria</th>
+        <th>tarefas</th>
+        <th>atrasos</th>
         <th>situacao</th>
     </tr>
 
     <tr>
         <td><?=$nome?></td>
         <td><?=$idade?></td>
-        <td><?=$obrigacoes?></td>
-        <td><?=$cargahoraria?></td>
+        <td><?=$tarefas?></td>
+        <td><?=$atrasos?></td>
         <td><?=$resultado?></td>
     </tr>
 </table>

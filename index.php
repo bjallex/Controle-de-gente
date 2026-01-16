@@ -17,10 +17,10 @@
             <input type="number" name  ="idade" placeholder="Qual a sua idade"><br>
 
             <label for="number">Resultados entregues</label>
-            <input type="number" name  ="obrigacoes" min="0" max="50" ><br>
+            <input type="number" name  ="tarefas" min="0" max="50" ><br>
 
             <label for="number">Carga horaria:</label>
-            <input type="number" name  ="cargahoraria" min="0" max="50" ><br>
+            <input type="number" name  ="atrasos" min="0" max="50" ><br>
 
             <div>
                 <button type="submit">Enviar</button>
