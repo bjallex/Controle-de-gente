@@ -7,9 +7,13 @@ if($_SERVER["REQUEST_METHOD"] === "POST"){
     $atrasos = $_POST['cargahoraria'];
 
     if($tarefas >= 10 && $tarefas <= 19 && $atrasos <=2 || $atrasos == 3 ){
-        $resultado = "Reultado exelente";
+        $resultado = "Resultado regular";
+    }
+    elseif($tarefas >= 25 && $atrasos == 0){
+        $resultado = "Funcionario elegivel para bonus";
     }
     elseif($tarefas >= 20 && $atrasos <= 1){
+        $resultado = "Desempenh exelente";
     }
     else{
         $resultado ="Resultado insatisfatorio";
