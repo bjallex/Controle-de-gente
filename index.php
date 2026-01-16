@@ -6,7 +6,7 @@
     <title>Desempenho dos colaboradores</title>
 </head>
 <body>
-    <h1>Formulario de desempenho de funcionarios</h1>
+    <h1>Formulario de desempenho</h1>
 
     <section>
         <form action="calcula.php" method = "POST">
