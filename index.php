@@ -21,6 +21,8 @@
 
             <label for="number">Carga horaria:</label>
             <input type="number" name  ="atrasos" min="0" max="50" ><br>
+            <label for="number">setor do funcionario:</label>
+            <input type="text" name  ="setor" min="0" max="50" ><br>
 
             <div>
                 <button type="submit">Enviar</button>
