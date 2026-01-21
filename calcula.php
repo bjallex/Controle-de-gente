@@ -25,7 +25,7 @@ if($_SERVER["REQUEST_METHOD"] === "POST"){
 ?>
 
 <h1>Informações dos escravos clt</h1>
-<h3><?php echo "data avaliacao". date('d/m/Y');?></h3>
+
 <table border = 1 >
     <tr>
         <th>nome</th>
